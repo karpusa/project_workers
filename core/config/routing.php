@@ -1,0 +1,10 @@
+<?php
+$default='post';
+$routing=array(
+    'post'=>array('controller'=>'Post','action'=>'actionList'),
+    'post/add'=>array('controller'=>'Post','action'=>'actionAdd'),   
+    'post/edit'=>array('controller'=>'Post','action'=>'actionEdit'),     
+    'staff'=>array('controller'=>'Staff','action'=>'actionList'),   
+    'staff/add'=>array('controller'=>'Staff','action'=>'actionAdd'),   
+    'staff/edit'=>array('controller'=>'Staff','action'=>'actionEdit'),       
+);
